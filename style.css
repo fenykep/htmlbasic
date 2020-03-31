@@ -16,9 +16,7 @@
 }
 
 body {
-	color: #111;
-  	background-color: #eaeaea;
- 	font-size: 1.6rem;
+	font-size: 1.6rem;
  	margin-left: 1rem;
  	margin-right: 1rem;
  	padding: 0;
@@ -59,4 +57,26 @@ body::-webkit-scrollbar-thumb{
 
 .nav-item {
 	width: 100%;
+}
+
+.nav-link {
+	display: flex;
+	align-items: center;
+	width: 10rem;
+	color: var(--text-primary);
+	flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+	color: #111;
+  	background-color: #ea22ea;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	body {
+	color: #1a1;
+  	background-color: #eaffea;
+	}
 }
