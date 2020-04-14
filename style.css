@@ -1,0 +1,60 @@
+body {
+	background: #37fa3c;
+	font-family: arial;
+}
+
+
+
+.hul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: center;
+  top: 0;
+  width: 100%;
+  font-size: 2.5rem;
+  border-radius: 10px;
+}
+
+.hli {
+  float: left;
+}
+
+.hli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.hli a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #CC2150;
+}
+
+
+/*Desktop*/
+@media screen and (min-aspect-ratio: 15/9) {
+  .container{
+	background: #c46a3c;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 10px;
+}
+}
+
+/*Phone*/
+@media screen and (max-aspect-ratio: 15/9) {
+  .container{
+	background: #37fa3c;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 10px;
+}
+}
