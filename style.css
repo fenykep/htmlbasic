@@ -1,8 +1,11 @@
 body {
-	background: #37fa3c;
+	background: #F2F2F2;
 	font-family: arial;
 }
 
+h1, h2, h3 {
+	color: #274587;
+}
 
 
 .hul {
@@ -10,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #274587;
   position: center;
   top: 0;
   width: 100%;
@@ -31,30 +34,32 @@ body {
 }
 
 .hli a:hover:not(.active) {
-  background-color: #111;
+  background-color: #b4b3ff;
 }
 
-.active {
-  background-color: #CC2150;
+p {
+	padding: 10px;
 }
 
 
 /*Desktop*/
 @media screen and (min-aspect-ratio: 15/9) {
   .container{
-	background: #c46a3c;
+	background: white;
 	margin-left: 20%;
 	margin-right: 20%;
 	padding: 10px;
+	
 }
 }
 
 /*Phone*/
 @media screen and (max-aspect-ratio: 15/9) {
   .container{
-	background: #37fa3c;
+	background: white;
 	margin-left: 10%;
 	margin-right: 10%;
 	padding: 10px;
+
 }
 }
